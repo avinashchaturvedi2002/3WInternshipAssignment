@@ -9,7 +9,6 @@ import useUsers from './hooks/useUsers';
 import useClaimHistory from './hooks/useClaimHistory';
 import useClaimPoints from './hooks/useClaimPoints';
 import SuccessPopup from './components/Success';
-import { claimPoints } from '../../backend/controllers/userController';
 
 function App() {
   const [activeTab, setActiveTab] = useState('leaderboard');
